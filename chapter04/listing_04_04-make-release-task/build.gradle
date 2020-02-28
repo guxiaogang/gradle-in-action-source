@@ -27,7 +27,7 @@ task printVersion << {
 task makeReleaseVersion(group: 'versioning', description: 'Makes project a release version.') << {
     version.release = true
     ant.propertyfile(file: versionFile) {
-        entry(key: 'release', type: 'string', operation: '=', value: 'true')
+        entry(key: 'release', type: 'string', operation: '=', value: "${version.release}")
     }
 }
 

@@ -1,0 +1,4 @@
+include 'chapter03/todo-app-external-dependency'
+include 'chapter03/todo-webapp-jetty-customized'
+include 'chapter04/defaulttask-group-description-setter'
+include 'chapter04/listing_04_03-configuration-task'
